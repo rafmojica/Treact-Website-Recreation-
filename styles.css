@@ -120,7 +120,7 @@ button:hover {
 }
 
 .navbar__menu--backdrop--item {
-    margin: 32px 0;
+    margin: 32px 0; 
     text-align: center;
     visibility: hidden;
     opacity: 0;
