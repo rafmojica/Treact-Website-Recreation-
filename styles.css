@@ -64,7 +64,7 @@ button:hover {
     padding: 12px 32px;
     border: none;
     border-radius: 50px;
-    color: white !important;
+    color: white;
     background-color: #6415ff;
     font-size: 14px;
     font-weight: 600;
@@ -98,6 +98,11 @@ button:hover {
     border: 0;
 }
 
+.navbar__menu--sign-up {
+    font-size: 18px;
+    margin: 0;
+}
+
 .navbar__menu--backdrop {
     visibility: hidden;
     position: absolute;
@@ -126,12 +131,12 @@ button:hover {
     opacity: 0;
 }
 
-.navbar__menu--item--text {
-    font-size: 18px !important;
-    margin: 0 !important;
-    font-weight: 600 !important;
+#navbar__menu--item--text {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
     color: black;
-    text-align: center !important;
+    text-align: center;
   }
   
   .navbar__menu--backdrop--button {
@@ -189,8 +194,8 @@ button:hover {
     align-items: center;
 }
 
-.login {
-    margin-left: 48px !important;
+#login {
+    margin-left: 48px;
 }
 
 .nav__link {
@@ -204,16 +209,13 @@ button:hover {
     border-color: transparent;
 }
 
-.nav__link:hover {
-    border-color: #6415ff;
-}
-
 .link__hover-effect {
     transition: all 300ms;
     border-bottom: 2px transparent solid;
 }
 
-.nav__links .link__hover-effect:hover {
+.link__hover-effect:hover {
+    border-color: #6415ff;
     color: #6415ff;
 }
 
@@ -855,6 +857,7 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: rgb(237, 242, 247);
+    transition: all 300ms ease;
     color: #6415ff;
     padding: 16px;
     margin: 0 12px;
@@ -879,11 +882,20 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: rgb(237, 242, 247);
+    transition: all 300ms ease;
     color: #6415ff;
     padding: 16px;
     margin: 0 12px;
     border: 0px;
     border-radius: 50px;
+}
+
+.arrow__right:hover {
+    background-color: #9ca3afa4;
+}
+
+.arrow__left:hover {
+    background-color: #9ca3afa4;
 }
 
 .arrow__right--img {
@@ -993,7 +1005,7 @@ h1 {
     background-color: #6415ff;
     border: 1px #fff solid;
     transition-property: background-color, color;
-    transition: 300ms ease;
+    transition: all 300ms ease;
 }
 
 .second__color:hover {
@@ -1061,6 +1073,7 @@ h1 {
     color: #f7fafc;
     font-weight: 500;
     border-color: transparent;
+    padding-bottom: 2px;
 }
 
 .footer__column--item {
@@ -1071,6 +1084,7 @@ h1 {
 
 .link__hover-effect--white:hover {
     border-color: #f7fafc;
+    color: #f7fafc;
 }
 
 .footer__copyright--description {
